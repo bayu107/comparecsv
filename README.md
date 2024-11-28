@@ -65,10 +65,10 @@ Aplikasi ini digunakan untuk membandingkan dua file Excel berdasarkan kolom tert
     Jika Anda ingin berkontribusi pada proyek ini:
 
     Fork repositori ini.
-    Buat branch fitur baru (git checkout -b fitur-baru).
-    Commit perubahan Anda (git commit -m "Tambah fitur baru").
-    Push ke branch Anda (git push origin fitur-baru).
-    Buat Pull Request.
+    - Buat branch fitur baru (git checkout -b fitur-baru).
+    - Commit perubahan Anda (git commit -m "Tambah fitur baru").
+    - Push ke branch Anda (git push origin fitur-baru).
+    - Buat Pull Request.
 
 Kontak
 Untuk pertanyaan atau masalah, hubungi: Bayu Setiawan

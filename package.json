@@ -1,0 +1,17 @@
+{
+  "name": "excel-comparison",
+  "version": "1.0.0",
+  "description": "A Node.js project to compare Excel files and send email with CSV result",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/compareExcel.js && node src/sendEmail.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "exceljs": "^4.3.0",
+    "lodash": "^4.17.21",
+    "nodemailer": "^6.9.16",
+    "winston": "^3.3.3",
+    "xlsx": "^0.18.5"
+  }
+}

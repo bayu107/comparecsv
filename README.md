@@ -11,26 +11,26 @@ Aplikasi ini digunakan untuk membandingkan dua file Excel berdasarkan kolom tert
 - Log kesalahan dan hasil penting disimpan di file `app.log`.
 
 ## Struktur Folder
-project-folder/
-├── assets/                           # Folder untuk menyimpan file Excel input
-│   ├── file1.xlsx                    # File Excel pertama untuk dibandingkan
-│   ├── file2.xlsx                    # File Excel kedua untuk dibandingkan
-├── hasil_compare/                    # Folder utama untuk menyimpan hasil perbandingan
-│   ├── tanggal_modifikasi_jakarta/   # Subfolder untuk kolom "Tanggal Modifikasi Jakarta"
-│   │   └── comparison_result.csv     # Hasil perbandingan kolom ini
-│   ├── activity_type/                # Subfolder untuk kolom "Activity Type"
-│   │   └── comparison_result.csv     # Hasil perbandingan kolom ini
-│   ├── priority_name/                # Subfolder untuk kolom "Priority Name"
-│   │   └── comparison_result.csv     # Hasil perbandingan kolom ini
-│   ├── stock_warehouse_name/         # Subfolder untuk kolom "Stock Warehouse Name"
-│   │   └── comparison_result.csv     # Hasil perbandingan kolom ini
-│   ├── service_point_name/           # Subfolder untuk kolom "Service Point Name"
-│   │   └── comparison_result.csv     # Hasil perbandingan kolom ini
-├── logs/                             # Folder untuk menyimpan file log
-│   └── app.log                       # File log untuk mencatat kesalahan atau hasil penting
-├── src/                              # Folder untuk menyimpan kode sumber
-│   └── compare.js                    # Skrip utama untuk menjalankan perbandingan
-├── README.md                         # Dokumentasi proyek
+- project-folder/
+- ├── assets/                           # Folder untuk menyimpan file Excel input
+- │   ├── file1.xlsx                    # File Excel pertama untuk dibandingkan
+- │   ├── file2.xlsx                    # File Excel kedua untuk dibandingkan
+- ├── hasil_compare/                    # Folder utama untuk menyimpan hasil perbandingan
+- │   ├── tanggal_modifikasi_jakarta/   # Subfolder untuk kolom "Tanggal Modifikasi Jakarta"
+- │   │   └── comparison_result.csv     # Hasil perbandingan kolom ini
+- │   ├── activity_type/                # Subfolder untuk kolom "Activity Type"
+- │   │   └── comparison_result.csv     # Hasil perbandingan kolom ini
+- │   ├── priority_name/                # Subfolder untuk kolom "Priority Name"
+- │   │   └── comparison_result.csv     # Hasil perbandingan kolom ini
+- │   ├── stock_warehouse_name/         # Subfolder untuk kolom "Stock Warehouse Name"
+- │   │   └── comparison_result.csv     # Hasil perbandingan kolom ini
+- │   ├── service_point_name/           # Subfolder untuk kolom "Service Point Name"
+- │   │   └── comparison_result.csv     # Hasil perbandingan kolom ini
+- ├── logs/                             # Folder untuk menyimpan file log
+- │   └── app.log                       # File log untuk mencatat kesalahan atau hasil penting
+- ├── src/                              # Folder untuk menyimpan kode sumber
+- │   └── compare.js                    # Skrip utama untuk menjalankan perbandingan
+- ├── README.md                         # Dokumentasi proyek
 
 ## Prasyarat
 - Node.js (versi terbaru)
